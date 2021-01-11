@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <locale.h>
+#include <windows.h>
 
 main () {
 	setlocale(LC_ALL, "spanish");
@@ -11,6 +12,8 @@ main () {
 	
 	do
 	{	
+	system("cls");
+	system("color f0");
 	fflush(stdin);
 	printf("\n ****Convertidor de temperatura**** ");
 	printf("\n 1. Celcius a Farenheit.");
