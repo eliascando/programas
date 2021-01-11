@@ -28,6 +28,9 @@ main () {
 			farenheit = (celcius * 1.8) + 32;
 			printf("\n Es igual a: %.2f", farenheit);
 			printf("°F");
+			printf("\n");
+			printf("\n");
+			system("pause");
 		break;
 		
 		case 2:
@@ -36,11 +39,18 @@ main () {
 			celcius = (farenheit - 32) / 1.8;
 			printf("\n Es igual a: %.2f", celcius);
 			printf("°C");
+			printf("\n");
+			printf("\n");
+			system("pause");
 		break;
 		
 		default:
 			printf("\n Opción Incorrecta...");
+			printf("\n");
+			printf("\n");
+			system("pause");
 		}
+				system("cls");
 				printf("\n \n ***********************");
 				printf("\n \n Desea volver a Convertir?...");
 				printf("\n 1. SI");
@@ -48,7 +58,7 @@ main () {
 				printf("\n Opción: ");
 				scanf ("%i",&i);
 	} while (i == 1);	
+	system("cls");
 	printf("\n ****PROGRAMA FINALIZADO****");
-	
 	getch();
 }
